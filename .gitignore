@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE and OS files
+.vscode/
+.idea/
+Desktop.ini
+Thumbs.db
+.DS_Store
+
+# Data and generated outputs
+data/raw/*
+data/processed/*
+results/figures/*
+results/tables/*
+references/*
+
+# Keep directory placeholders
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!results/figures/.gitkeep
+!results/tables/.gitkeep
+!references/.gitkeep
+
+# Model artifacts and logs
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.onnx
+mlruns/
+wandb/
+logs/
+
