@@ -1,0 +1,35 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Raw and generated datasets are intentionally not versioned.
+# Keep code, reports, figures, and small result tables in Git; regenerate data locally.
+data_raw/
+data_interim/
+data_processed/
+
+# Downloaded reference archives / large external code bundles
+references/**/*.zip
+references/**/*.mat
+
+# Large binary/tabular artifacts, if created outside ignored data dirs
+*.parquet
+*.h5
+*.hdf5
+*.mat
+*.pkl
+*.joblib
+
+# Logs
+*.log
